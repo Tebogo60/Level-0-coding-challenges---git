@@ -17,3 +17,5 @@ function numToHourMin(num) {
     }
 
 }
+
+numToHourMin(65);
