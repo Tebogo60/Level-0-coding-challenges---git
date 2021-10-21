@@ -13,9 +13,15 @@ function numToHourMin(num) {
         console.log(2 + " hours");
     }
     else if (num > 180 && num < 239) {
-        console.log(3 + " hours" + " minutes");
+        console.log(3 + " hours and " + " minutes");
+    }
+    else if (num == 240) {
+        console.log(4 + " Hours");
+    }
+    else if (num > 240 && num < 399) {
+        console.log(4 + " hours and " + " minutes")
     }
 
 }
 
-numToHourMin(65);
+numToHourMin(246);
