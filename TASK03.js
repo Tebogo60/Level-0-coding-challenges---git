@@ -1,8 +1,5 @@
-var hello = "hello";
-var name = "Tshepo!";
-
-function hello(hello, name) {
-    return hello + name;
+function hello(name) {
+    return "Hello " + name + "!";
 }
 
-console.log(hello, name);
+console.log(hello("Tshepo"));
