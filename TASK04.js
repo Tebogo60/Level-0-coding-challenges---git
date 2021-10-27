@@ -1,15 +1,10 @@
 function evenOrOdd(number) {
-
-    if(number == 3) {
-        console.log(number + " Odd!");
-    }
-    else if(number == 4) {
-        console.log(number + " even!");
+    if (number%2 === 0) {
+        console.log ("even");
     }
     else {
-        console.log(number + "(Number must be 3 or 4)")
+        console.log ("odd");
     }
-
-}
-
-evenOrOdd(2);
+    
+} 
+evenOrOdd(3);
