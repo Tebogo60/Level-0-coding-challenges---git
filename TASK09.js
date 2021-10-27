@@ -1,11 +1,11 @@
 function printVowels(string) {
-    var vows = ("a,e,i,o,u,A,E,I,O,U");
+    let vows = ("aeiouAEIOU");
+    let stringVowels = "";
 
-    for (var i = 0; i < string.length; i++) {
+    for(let i = 0; i <= string.length; i++) {
         if (vows.includes(string[i])) {
-            console.log(string[i]);
+            stringVowels = stringVowels + string[i] + ", ";
         }
     }
-}
-
-console.log(printVowels("African Academy"));
+    return (stringVowels);
+}  console.log(printVowels("Umuzi Academy"));
