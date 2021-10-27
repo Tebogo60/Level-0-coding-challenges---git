@@ -1,8 +1,8 @@
-function areaOfTri(a, b, c) {
+function areaOfTri(b,h) {
 
-    var area = 1/2 * (a + b + c);
-    console.log(area);
+    let area = 1/2 * b * h;
+    
+    return area;
 }
 
-areaOfTri(4, 3, 5);
-
+console.log(areaOfTri(5,3));
