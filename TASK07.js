@@ -1,13 +1,13 @@
-function fahrenheitToCelsius(celsius) {
-    var fahrenheit = (celsius * 1.8) + 32;
-    console.log(fahrenheit);
+function celsiusToFahrenheit(celsius) {
+    let fahrenheit = (celsius * 1.8) + 32;
+        return fahrenheit;
+}
+console.log(celsiusToFahrenheit(80));
+
+
+function fahrenheitToCelsius(fahrenheit) {
+    let celsius = (fahrenheit - 32) * 5 / 9
+    return celsius;
 }
 
-fahrenheitToCelsius(25);
-
-function celsiusToFahrenheit(fahrenheit) {
-    var celsius = (fahrenheit - 32) * 5 / 9
-        console.log(celsius);
-}
-
-celsiusToFahrenheit(80);
+console.log(fahrenheitToCelsius(25));
