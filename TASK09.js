@@ -1,5 +1,4 @@
 function printVowels(string) {
-
     let vows = "aeiou";
     let stringVowels = "";
 
