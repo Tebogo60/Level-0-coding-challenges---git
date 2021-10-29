@@ -1,8 +1,10 @@
-function areaOfTri(b,h) {
+function areaOfTri(a,b,c) {
 
-    let area = 1/2 * b * h;
+    let s = 1/2 * (a + b + c);
+
+    let area = Math.sqrt(s * (s - a) * (s - b) * (s - c))
     
     return area;
 }
 
-console.log(areaOfTri(5,3));
+areaOfTri(9,10,11);
