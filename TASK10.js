@@ -4,7 +4,7 @@ function commonLetters() {
     let commonLetters = "";
 
     for(let i = 0; i <= input2.length; i++) {
-        if (input1.includes(input2[i])) {
+        if (input1.includes(input2.toLowerCase()[i])) {
             commonLetters = commonLetters + input2[i] + ",";
         }
     }
