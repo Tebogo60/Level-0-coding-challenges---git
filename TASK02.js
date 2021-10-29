@@ -4,7 +4,6 @@ var z = 1 + (1 * 2);
 var a = 1 + 1 * 2 / 2
 var b = (1 + 1 * 2) / 2
 
-console.log(x,y,z,a,b);
 console.log(x);
 console.log(y);
 console.log(z);
