@@ -5,6 +5,9 @@ function numToHourMin(num) {
     if (hour == 1 && minutes == 1) {
         return (hour + " Hour, " + minutes + " Minute");
     }
+    else if (hour < 1 && minutes == 1) {
+        return (hour + " Hours, " + minutes + " Minute");
+    }
     else if (hour == 1 && minutes == 0) {
         return (hour + " Hour, " + minutes + " Minutes");
     }
